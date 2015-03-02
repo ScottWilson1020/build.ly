@@ -24,7 +24,8 @@ gem 'bootstrap-sass', '~> 3.3.3'
 
 # Allows people to upload pictures
 gem "paperclip", "~> 4.2"
-
+#image storage
+gem "paperclip-dropbox", ">= 1.1.7"
 # for Heroku 
 group :production do
   gem 'pg'
