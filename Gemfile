@@ -26,6 +26,8 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem "paperclip", "~> 4.2"
 #image storage
 gem "paperclip-dropbox", ">= 1.1.7"
+# for web security
+gem "figaro"
 # for Heroku 
 group :production do
   gem 'pg'
