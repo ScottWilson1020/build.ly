@@ -28,6 +28,8 @@ gem "paperclip", "~> 4.2"
 gem "paperclip-dropbox", ">= 1.1.7"
 # for web security
 gem "figaro"
+# for users 
+gem 'devise'
 # for Heroku 
 group :production do
   gem 'pg'
